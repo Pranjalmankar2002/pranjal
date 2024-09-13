@@ -1,0 +1,214 @@
+*{
+    margin: 0 auto;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.abs{
+    position: absolute;
+}
+.rel{
+    position: relative;
+    /* padding: 0 0 10px 0; */
+}
+.row, .d-flex{
+    display: flex;
+}
+.d-block{
+    display: block;
+}
+.d-inline-block {
+    display: inline-block !important;
+}
+.col-md-12{
+    width: 100%;
+}
+.col-md-6{
+    width: 50%;
+}
+.col-md-4{
+    width: 25%;
+}
+.col-md-3{
+    width:33.33%;
+}
+.text-align{
+    text-align: center;
+}
+.justify{
+    justify-content: space-between;
+}
+.align{
+    align-items: center;
+}
+.gap{
+    gap: 15px;
+}
+.m-10{
+    margin: 10px;
+}
+.m-20{
+    margin: 30px;
+}
+.w-80{
+    width: 80%;
+}
+.content{
+    width:1200px;
+    border: 2px solid white;
+    overflow: visible;
+}   
+.w-70{
+    height: 70px;
+    width: 70px;
+}
+.bg-clr{
+    background-color: #d0a772 ;
+    color: white;
+    margin: 10px 0auto;
+    padding: 30px;
+    
+}
+.font{
+    font-size: 64px;
+    font-weight: bolder;
+    color: #fff;
+}
+.p-20{
+    padding: 20px;
+}
+ .img-box{box-shadow: -10px -10px 0px #d0a772;
+}
+.w-img{
+    width: 100%;
+    margin: 20px 0;
+}
+.f-size{
+    font-size:35px;
+}
+.bg-w{
+    background-color: white;
+}
+.w-clr{
+    color: white;
+}
+.y-clr{
+    color: #d0a772;
+}
+.blue{
+    color: blue;
+}
+.b-clr{
+    color: black;
+}
+.grey{
+    color: #666666;
+    background-color: #fff;
+    box-sizing: content-box;
+}
+.cont-box{
+    border-radius: 3px;
+    border-color: darkgreen;
+    background-color: #fff;
+    margin: 10px 0;
+
+}
+.h-clr{
+    background-color: black;
+}
+.bg-trans2{
+    background-color: #1e161675;
+}
+.t-clr{
+    background-color:transparent;
+}
+section{
+    background-color: #fff;
+}
+.border{
+    border-color: #d0a772;
+    border-style: dotted;
+    box-sizing: content-box;
+    border-width: 1px;
+}
+.contact{
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #fff;
+    color: #d0a772;
+    font-size: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: white;
+}
+.lead {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+.m-b{
+    margin-bottom: 20px;
+}
+.bg {
+    background-color: #666666;
+    font-size: 15px;
+    font-family: 'Athiti', sans-serif;
+    line-height: 1.80857;
+}
+body{
+    background-attachment: fixed;
+    background-image: url(https://nmrecipe.com/wp-content/uploads/2021/05/Idli-Sambar-Recipe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-trans{
+    color: transparent;
+}
+.box{
+    box-sizing: content-box groove 1px ;
+    padding: 5px;
+    margin: 10px 0;
+    background-color:transparent;
+    color:#d0a772;;
+    border-color: #d0a772;
+}
+section{
+    background-image: url(https://akm-img-a-in.tosshub.com/businesstoday/images/story/202312/658aaae63bd54-in-the-brief-video-clip-on-instagram--the-camera-zooms-in-on-the-digital-display-menu-of-the-restaur-262852486-16x9.jpg?size=948:533);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-card:hover{
+    transform: scaley(1.1);
+    transition: 3s;
+    cursor: pointer;
+}
+
+.absolute{
+    position: absolute;
+    bottom: 24px;
+    width: 100%;
+}
+
+.c-img{
+    width: 300px;
+    height: 400px;
+}
+.arrow{
+    height: 30px;
+    width: 30px;
+    background-color: #d0a772;
+    color: #fff;
+    padding: 5px;
+}
